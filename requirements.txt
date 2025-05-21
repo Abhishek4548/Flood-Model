@@ -5,6 +5,7 @@ scikit-learn
 pandas
 numpy
 requests
+gunicorn
 
 # Optional: For frontend development (if applicable)
 # streamlit
