@@ -1,0 +1,11 @@
+# Core dependencies
+flask
+flask-cors
+scikit-learn
+pandas
+numpy
+requests
+
+# Optional: For frontend development (if applicable)
+# streamlit
+# dash
