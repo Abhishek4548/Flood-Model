@@ -1,7 +1,7 @@
 # Flood Risk Prediction System 🌊
 
 ## Overview  
-This project is a comprehensive AI and Machine Learning-based application for predicting flood risks in specific regions (**Mostar**, **Jablanica**, and **Fojnica**). By utilizing historical and real-time weather data, the system evaluates potential flood risks and offers valuable insights.  
+This project is a comprehensive AI and Machine Learning-based application for predicting flood risks in specific regions (**Dakshina Kannada**). By utilizing historical and real-time weather data, the system evaluates potential flood risks and offers valuable insights.  
 
 ---
 
@@ -28,7 +28,7 @@ This project is a comprehensive AI and Machine Learning-based application for pr
 ### 3. Interactive GUI  
 - Developed using **Tkinter**.  
 - **Features:**  
-  - Select a city (**Mostar**, **Jablanica**, or **Fojnica**).  
+  - Select a city (**Dakshina Kannada**).  
   - Predict flood risks for up to 10 days ahead.  
   - Displays results in a user-friendly, tabular format.  
 
@@ -74,7 +74,7 @@ This project is a comprehensive AI and Machine Learning-based application for pr
 
 ### **Steps to Run**
 1. **Clone the repository:**
-git clone https://github.com/Selma-Bajramovic/ai-agent-flood-prediction.git
+git clone (https://github.com/Abhishek4548/Flood-Model/tree/master)
 cd flood_prediction
 3. **Train the model:**
    python model.py
@@ -90,11 +90,11 @@ cd flood_prediction
 ├── backend
 │   ├── data
 │   │   ├── fetch_data.py
-│   │   ├── fojnica_weather.csv
-│   │   ├── jablanica_weather.csv
+│   │   ├── Dakshina Kannada 2019-01-01 to 2021-05-31.csv
+│   │   ├── Dakshina Kannada 2021-06-01 to 2023-12-31.csv
 │   │   ├── merged_data.py
-│   │   ├── merged_flood_data.csv
-│   │   └── mostar_weather.csv
+│   │   ├── Dmerged_flood_data.csv
+│   │   └── dakshina_kannada_weather.csv
 │   ├── model
 │   │   └── flood_prediction_model.pkl
 │   ├── app.py
