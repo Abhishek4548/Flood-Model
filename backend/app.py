@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Load the prediction model
-model_path = r"D:\DTEST\backend\model\flood_prediction_modelD.pkl"
+model_path = r"C:\Users\abhi1\Desktop\Dakshina Kannada\backend\model\flood_prediction_model.pkl""
 model = joblib.load(model_path)
 
 # API configuration
